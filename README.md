@@ -9,7 +9,7 @@ Wymagania wstępne:
 Kroki do zainstalowania zależności:
 1. Utworzenie katalogu na projekt - ```mkdir [nazwa projektu]```
 2. Wejscie do utworzonego katalogu -```cd [nazwa projektu]```
-3. Pobranie projektu z repozytorium - ```git clone https://gitlab.com/maciekc1996/budowanie-aplikacji-sieciowych.git``` 
+3. Pobranie projektu z repozytorium - ```git clone https://github.com/maciesc/pisanieLiczbSlownie.git``` 
 4. Tworzymy środowisko wirtualne - ```virtualenv venv```
 5. Aktywujemy środowisko wirtualne - ```source venv/bin/activate```
 6. Instalujemy zależności - ```pip install -r requirements.txt```
