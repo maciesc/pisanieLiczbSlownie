@@ -1,22 +1,17 @@
 # pisanieLiczbSlownie
 Prosta aplikacja konwertująca liczby na liczby pisane w języku polskim
 Wymagania wstępne:
+* Python 3.6~
+* Zainstalowany [pip](https://pypi.org/project/pip/)
+* Zainstalowany virtualenv - ```pip3 install virtualenv```
+* Zainstalowany [npm](https://www.npmjs.com/get-npm)
 
-Python 3.6 
-Zainstalowany pip 
-Zainstalowany virtualenv - pip install virtualenv
-Zainstalowany npm
-
-1.Pobranie projektu
-git clone 
-2.Otworzenie katalogu pobranego projektu
- $ cd..
-3.Stworzenie wirtualenv'a
-  $ python3 -m venv ['nazwa virtualenv']
-4.Uruchomienie stworzonego wirtualenv'a
-  $ source ['nazwa virtualenv']/bin/activate
-
-5.Kroki do zainstalowania zależności:
-  $ pip install -r requirements.txt
-6.Uruchomienie projektu
-  $ python manage.py runserver
+Kroki do zainstalowania zależności:
+1. Utworzenie katalogu na projekt - ```mkdir [nazwa projektu]```
+2. Wejscie do utworzonego katalogu -```cd [nazwa projektu]```
+3. Pobranie projektu z repozytorium - ```git clone https://gitlab.com/maciekc1996/budowanie-aplikacji-sieciowych.git``` 
+4. Tworzymy środowisko wirtualne - ```virtualenv venv```
+5. Aktywujemy środowisko wirtualne - ```source venv/bin/activate```
+6. Instalujemy zależności - ```pip install -r requirements.txt```
+7. Uruchamiamy aplikacje na serwerze- ```python manage.py runserver```
+8. Aplikacja działa pod ```http://localhost:8080```
